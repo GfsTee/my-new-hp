@@ -47,15 +47,6 @@ const MalereiJedesJahr = () => {
             </div>
             <div className="images">
                 {year}
-                {/* <SinglePainting2 num="1" />
-                <SinglePainting2 num="2" />
-                <SinglePainting2 num="3" />
-                <SinglePainting2 num="4" />
-                <SinglePainting2 num="5" />
-                <SinglePainting2 num="6" />
-                <SinglePainting2 num="7" />
-                <SinglePainting2 num="8" /> */}
-
             </div>
             <style jsx>{`
             .title {
