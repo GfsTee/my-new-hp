@@ -27,10 +27,14 @@ const SinglePainting2 = (props) => {
             }
             .fullscreen {
                 position: absolute;
-                top: 10%;
-                left: 10%;
-                bottom: 10%;
-                right: 10%;
+                // top: 10%;
+                // left: 10%;
+                // bottom: 10%;
+                // right: 10%;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                height: 80vh;
                 background: rgba(255 255 255 / .7);
                 padding: 20px;
                 display: flex;
@@ -41,7 +45,10 @@ const SinglePainting2 = (props) => {
                 border: 1px solid #3B5459;
             }
             .big-img-container {
-                height: 100%
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
             .fullscreen img {
                 max-width: 100%;

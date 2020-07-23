@@ -35,8 +35,9 @@ export default function Layout(props) {
           margin: 0;
         }
         main {
-          width: 90%;
-          margin: 5vh auto;
+          // width: 90%;
+          // margin: 5vh auto;
+          padding: 5vw;
         }
       `}</style>
     </div>
