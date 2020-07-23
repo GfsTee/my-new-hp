@@ -34,7 +34,7 @@ const SinglePainting2 = (props) => {
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
-                height: 80vh;
+                // height: 80vh;
                 background: rgba(255 255 255 / .7);
                 padding: 20px;
                 display: flex;
@@ -44,17 +44,22 @@ const SinglePainting2 = (props) => {
                 box-shadow: 10px -10px rgba(216, 147, 19, .8);
                 border: 1px solid #3B5459;
             }
+            .big-img {
+                max-width: 80vw;
+                max-height: 80vh;
+                object-fit: contain;
+            }
             .big-img-container {
-                height: 100%;
+                // height: 100%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
             }
-            .fullscreen img {
-                max-width: 100%;
-                max-height: 100%;
-                object-fit: contain;
-            }
+            // .fullscreen img {
+            //     max-width: 100%;
+            //     max-height: 100%;
+            //     object-fit: contain;
+            // }
             .hide {
                 z-index: -100000;
                 opacity: 0;
