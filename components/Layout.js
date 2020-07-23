@@ -9,12 +9,13 @@ export default function Layout(props) {
         <title>Georg Treitz | {props.title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Nav />
-      <main>
-        {props.children}
-      </main>
-      <Footer />
-
+      <div className="wrapper">
+        <Nav />
+        <main>
+          {props.children}
+        </main>
+        <Footer />
+      </div>
       <style jsx>{`
     
       `}</style>
@@ -23,6 +24,9 @@ export default function Layout(props) {
       @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,900&display=swap');
       html {
         scroll-behavior: smooth;
+      }
+      .wrapper {
+        overflow-x: hidden;
       }
         body {
           overflow-x: hidden;
@@ -38,6 +42,7 @@ export default function Layout(props) {
           // width: 90%;
           // margin: 5vh auto;
           padding: 5vw;
+          min-height: 90vh;
         }
       `}</style>
     </div>
