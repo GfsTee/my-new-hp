@@ -1,82 +1,67 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 
-const SinglePainting = (props) => {
+const SinglePainting2 = (props) => {
     const [isShown, setIsShown] = useState(false);
     const ref = useRef();
     useOnClickOutside(ref, () => setIsShown(false));
 
     return (
         <figure className="main-fig">
-            <div>
-                <img className="small-img" src={`https://source.unsplash.com/random?${props.num}`} alt="" onClick={() => setIsShown(true)} />
-            </div>
-            <figcaption>
-                Lorem ipsum dolor sit amet.
-            </figcaption>
+            <div className="small-img-container" onClick={() => setIsShown(true)}></div>
             <figure className={`fullscreen ${isShown ? "show" : "hide"}`} ref={ref} >
-                <div>
-                    <img className="big-img" src={`https://source.unsplash.com/random?${props.num}`} alt="" />
+                <div className="big-img-container">
+                    <img className="big-img" src={`${props.ele.picUrl}`} alt="" />
                 </div>
                 <figcaption>
-                    Lorem ipsum dolor sit amet.
+                    {props.ele.title}
                 </figcaption>
             </figure>
             <style jsx>{`
-            .main-fig {
-                align-self: end;
+            .small-img-container {
+                height: 100%;
+                background: url(${props.ele.picUrl}) center center / cover no-repeat;
             }
-            .small-img {
-                max-width: fill-available;
-                max-height: fill-available;
-                object-fit: contain;
-            }
-            figure {
-                width: 100%;
+            .small-img-container:hover {
+                opacity: .8;
             }
             .fullscreen {
                 position: absolute;
-                // max-height: 80%;
-                max-width: 80%;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                transition: opacity .5s;
-                // padding: 3vmin;
-                background #fff;
-                border: 3px solid #172626;
-                padding: 5px;
-                text-align: center;
-
+                top: 10%;
+                left: 10%;
+                bottom: 10%;
+                right: 10%;
+                background: rgba(255 255 255 / .7);
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 10px -10px rgba(216, 147, 19, .8);
+                border: 1px solid #3B5459;
             }
-            .big-img {
-                max-width: fill-available;
-                max-height: fill-available;
-                // width: auto;
-                // height: auto;
+            .big-img-container {
+                height: 100%
+            }
+            .fullscreen img {
+                max-width: 100%;
+                max-height: 100%;
                 object-fit: contain;
-               
             }
             .hide {
-                z-index: -1000${Math.floor(Math.random() * 100)};
+                z-index: -100000;
                 opacity: 0;
             }
             .show {
-                z-index: 10${Math.floor(Math.random() * 100)};
+                z-index: 1000;
                 opacity: 1;
-            }
-            .fullscreen figcaption {
-                height: 4%;
-                background: #fff;
-                display: flex;
-                align-items: center;
             }
       `}</style>
         </figure >
     );
 }
 
-export default SinglePainting;
+export default SinglePainting2;
 
 function useOnClickOutside(ref, handler) {
     useEffect(
