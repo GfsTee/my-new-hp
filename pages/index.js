@@ -10,7 +10,10 @@ export default function Home() {
     },
     [setCoords]
   );
-  useEventListener('mousemove', handler);
+  if (process.browser) {
+    useEventListener('mousemove', handler);
+  }
+
   return (
     <Layout title={"Malerei"}>
       <h1>
