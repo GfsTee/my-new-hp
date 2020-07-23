@@ -1,3 +1,24 @@
+/* Color Theme Swatches in Hex */
+.Architektur-1-hex { color: #F2F2F2; }
+.Architektur-2-hex { color: #3B5459; }
+.Architektur-3-hex { color: #97A4A6; }
+.Architektur-4-hex { color: #172626; }
+.Architektur-5-hex { color: #D99414; }
+
+/* Color Theme Swatches in RGBA */
+.Architektur-1-rgba { color: rgba(242, 242, 242, 1); }
+.Architektur-2-rgba { color: rgba(58, 83, 89, 1); }
+.Architektur-3-rgba { color: rgba(150, 164, 165, 1); }
+.Architektur-4-rgba { color: rgba(22, 38, 38, 1); }
+.Architektur-5-rgba { color: rgba(216, 147, 19, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Architektur-1-hsla { color: hsla(0, 0, 95, 1); }
+.Architektur-2-hsla { color: hsla(191, 20, 29, 1); }
+.Architektur-3-hsla { color: hsla(185, 7, 62, 1); }
+.Architektur-4-hsla { color: hsla(180, 25, 12, 1); }
+.Architektur-5-hsla { color: hsla(39, 83, 46, 1); }
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

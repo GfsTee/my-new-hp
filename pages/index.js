@@ -1,16 +1,9 @@
-import Head from 'next/head'
-import Nav from '../components/Nav'
-import Footer from '../components/Footer'
+import Layout from '../components/Layout'
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>Georg Treitz</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Nav />
-      <Footer />
+    <Layout title={"Malerei"}>
+      <h1>test</h1>
 
       <style jsx>{`
         h1 {
@@ -18,20 +11,7 @@ export default function Home() {
         }
       `}</style>
 
-      <style jsx global>{`
-        html {
 
-        }
-        body {
-          padding: 0;
-          margin: 0;
-          
-        }
-
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
-    </div>
+    </Layout>
   )
 }

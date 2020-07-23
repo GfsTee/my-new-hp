@@ -1,0 +1,46 @@
+import Head from 'next/head'
+import Nav from '../components/Nav'
+import Footer from '../components/Footer'
+
+export default function Home() {
+  return (
+    <div>
+      <Head>
+        <title>Georg Treitz</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <Nav />
+      <main>
+        <h1>test</h1>
+      </main>
+      <Footer />
+
+      <style jsx>{`
+        h1 {
+          color: white
+        }
+      `}</style>
+
+      <style jsx global>{`
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,900&display=swap');
+
+        html {
+
+        }
+        body {
+          overflow-x: hidden;
+          // font-family: 'Open Sans', sans-serif;
+          font-family: 'Roboto', sans-serif;
+          
+        }
+
+        * {
+          box-sizing: border-box;
+          padding: 0;
+          margin: 0;
+        }
+
+      `}</style>
+    </div>
+  )
+}
