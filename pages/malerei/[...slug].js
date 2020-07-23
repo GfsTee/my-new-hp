@@ -34,7 +34,6 @@ const MalereiJedesJahr = () => {
                                 key={i}
                                 ele={ele}
                             />) : "Year not found"
-    console.log(year)
     return (
         <Layout title={slug.join('/')}>
             <div className="title">
@@ -68,6 +67,7 @@ const MalereiJedesJahr = () => {
             -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
             -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: rgba(58, 83, 89, 1);
+            text-align: end;
             }
         .images {
             position: relative;

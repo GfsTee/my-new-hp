@@ -63,6 +63,9 @@ const SinglePainting2 = (props) => {
                 z-index: 1000;
                 opacity: 1;
             }
+            figcaption {
+                padding-top: 10px;
+            }
       `}</style>
         </figure >
     );
