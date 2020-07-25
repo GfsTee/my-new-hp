@@ -24,8 +24,8 @@ export default function Layout(props) {
       @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,900&display=swap');
       html {
         scroll-behavior: smooth;
-        height: 100vh;
       }
+      
       .wrapper {
         overflow-x: hidden;
       }
@@ -34,6 +34,7 @@ export default function Layout(props) {
           // font-family: 'Open Sans', sans-serif;
           font-family: 'Roboto', sans-serif;
           height: 100vh;
+          color: #172626;
         }
         * {
           box-sizing: border-box;

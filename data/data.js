@@ -80,5 +80,47 @@ const malerei15 = [
     { picUrl: "https://source.unsplash.com/random?11", title: `This is a <b>TEST</b> with some <em>italic</em> Elements` },
     { picUrl: "https://source.unsplash.com/random?12", title: `This is a <b>TEST</b> with some <em>italic</em> Elements` },
 ]
-export { malereiOverview, malerei20, malerei19, malerei18, malerei17, malerei16, malerei15 }
+
+const vita = [
+    { year: "1984", title: "geboren in Freiburg im Breisgau" },
+    { year: "2004", title: "Abitur, Wentzinger Gymnasium, Freiburg i. Brsg." },
+    { year: "seit 2006", title: "Studium Malerei Kunstakademie Düsseldorf" },
+    { year: "2007-2010", title: "Prof. Markus Lüpertz" },
+    { year: "2010-2015", title: "Prof. Eberhard Havekost" },
+    { year: "2011", title: "Arbeitsstipendium, Galerie Eigenheim, Weimar" },
+    { year: "2013", title: "Meisterschüler von Prof. Eberhard Havekost" },
+    { year: "2015", title: "Förderstipendium der Deutschen Apotheker und Ärztebank" },
+    { year: "", title: "Akademiebrief der Kunstakademie Düsseldorf" },
+]
+const ausstellungen = [
+    { year: "2017", title: "Ernst & Young Benifizversteigerung im Rahmen der Düsseldorfer Nacht der Museen, Kunstakademie Düsseldorf, Düsseldorf" },
+    { year: "2016", title: "zakk, Düsseldorf" },
+    { year: "", title: "kunstakademie.gallery, Düsseldorf" },
+    { year: "", title: "Transfer Partners, Düsseldorf" },
+    { year: "2015", title: "Haus der Universität, Düsseldorf" },
+    { year: "", title: "Gecko Galerie, Solingen" },
+    { year: "", title: "Setareh Gallery, Düsseldorf" },
+    { year: "", title: "Kunsthaus Mettmann, Mettmann" },
+    { year: "2014", title: "Setareh Gallery, Düsseldorf (K)" },
+    { year: "", title: "Artloft, Düsseldorf" },
+    { year: "", title: "Gagarin, Düsseldorf" },
+    { year: "2013", title: "Galerie Braun-Falco, München (K)" },
+    { year: "", title: "Förderpreisausstellung Hogan Lovelles, Düsseldorf" },
+    { year: "2012", title: "A100, Düsseldorf" },
+    { year: "", title: "Gagarin, Düsseldorf" },
+    { year: "", title: "Emmafisch, Düsseldorf" },
+    { year: "2011", title: "Galerie Gebr. Lehmann, Dresden" },
+    { year: "", title: "Galerie Eigenheim, Weimar" },
+    { year: "", title: "Haueisenpreis, Ziegeleimuseum, Jockgrim" },
+    { year: "", title: "Pomodoro, Karlsruhe" },
+    { year: "2010", title: "Katholisch Solziales Institut, Bad Honnef" },
+    { year: "", title: "Forum für Kunst und Kultur, Herzogenrath" },
+    { year: "2009", title: "Kunstförderpreisausstellung von Rundstedt, Düsseldorf (K)" },
+    { year: "2008", title: "Förderpreisausstellung Lovelles, Düsseldorf" },
+    { year: "", title: "HSBC-Bank Trinkaus & Burkhardt, Düsseldorf" },
+    { year: "2007", title: "Kunstförderpreisausstellung von Rundstedt, Düsseldorf" },
+]
+
+
+export { malereiOverview, malerei20, malerei19, malerei18, malerei17, malerei16, malerei15, vita, ausstellungen }
 
