@@ -44,7 +44,7 @@ const SinglePainting2 = (props) => {
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                box-shadow: 10px -10px rgba(242, 242, 242, .8);
+                box-shadow: 10px -10px rgba(216, 147, 19, .6);
                 border: 1px solid #3B5459;
                 transition: opacity .5s, height .5s;
             }

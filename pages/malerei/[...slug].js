@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router'
 import Layout from '../../components/Layout'
 import { malerei20, malerei19, malerei18, malerei17, malerei16, malerei15 } from '../../data/data'
-import SinglePainting2 from '../../components/SinglePainting2'
+import SinglePainting from '../../components/SinglePainting'
 import Link from 'next/link'
 // import SinglePainting from '../../components/SinglePainting.js.bak'
 
@@ -10,27 +10,27 @@ const MalereiJedesJahr = () => {
     const router = useRouter()
     const slug = router.query.slug || []
     const year = slug.join('/') === '2020' ?
-        malerei20.map((ele, i) => <SinglePainting2
+        malerei20.map((ele, i) => <SinglePainting
             key={i}
             ele={ele}
         />) : slug.join('/') === '2019' ?
-            malerei19.map((ele, i) => <SinglePainting2
+            malerei19.map((ele, i) => <SinglePainting
                 key={i}
                 ele={ele}
             />) : slug.join('/') === '2018' ?
-                malerei18.map((ele, i) => <SinglePainting2
+                malerei18.map((ele, i) => <SinglePainting
                     key={i}
                     ele={ele}
                 />) : slug.join('/') === '2017' ?
-                    malerei17.map((ele, i) => <SinglePainting2
+                    malerei17.map((ele, i) => <SinglePainting
                         key={i}
                         ele={ele}
                     />) : slug.join('/') === '2016' ?
-                        malerei16.map((ele, i) => <SinglePainting2
+                        malerei16.map((ele, i) => <SinglePainting
                             key={i}
                             ele={ele}
                         />) : slug.join('/') === '2015' ?
-                            malerei15.map((ele, i) => <SinglePainting2
+                            malerei15.map((ele, i) => <SinglePainting
                                 key={i}
                                 ele={ele}
                             />) : "Year not found"
