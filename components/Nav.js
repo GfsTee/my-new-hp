@@ -8,7 +8,8 @@ const Nav = (props) => {
     useOnClickOutside(ref, () => setIsShown(false));
     return (
         <nav ref={ref}>
-            <h1>Georg Treitz<span> | Malerei</span></h1>
+
+            <h1><Link href=""><a>Georg Treitz | Malerei</a></Link></h1>
             <div id="hamburger" onClick={() => setIsShown(!isShown)} >
                 <span></span>
                 <span></span>
@@ -51,6 +52,11 @@ const Nav = (props) => {
         h1 {
             font-weight: 400;
         }
+        h1 a {
+            color: #f2f2f2;
+            font-size: .9em;
+            text-decoration: none;
+        }
         ul {
             display: flex;
             flex-direction: column;
@@ -74,8 +80,8 @@ const Nav = (props) => {
         }
         #hamburger {
             position: relative;
-            height: 5vmin;
-            width: 5vmin;
+            height: 30px;
+            width: 35px;
             z-index: 999999;
         }
         #hamburger span {
