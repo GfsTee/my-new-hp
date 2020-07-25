@@ -18,7 +18,6 @@ const Nav = (props) => {
             <ul className={isShown ? "show" : "hide"} >
                 <li><Link href="/"><a>News</a></Link></li>
                 <li><Link href="/malerei"><a>Malerei</a></Link></li>
-                <li><Link href="/papier"><a>Papierarbeiten</a></Link></li>
                 <li><Link href="/vita"><a>Vita</a></Link></li>
                 <li><Link href="/texte"><a>Texte</a></Link></li>
             </ul>
