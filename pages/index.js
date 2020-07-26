@@ -17,22 +17,37 @@ export default function Home() {
   return (
     <Layout title={"Malerei"}>
       <h1>
-        The mouse position is ({coords.x}, {coords.y})
-    </h1>
+
+      </h1>
       <div className="pic">
         <div className="pic-inverted"></div>
+      </div>
+      <div className="title">
+        aus der Serie <i>lys</i> V, Malerei auf Glas, LED, 20x30cm, 2019
+      </div>
+      <div className="small">
+        <i>Normale Ansicht: Licht aus - wenn du die Maus über das Bild bewegst wird bei diesem Teil des Bilds die LEDs "eingeschaltet"</i>
       </div>
 
       <style jsx>{`
         .pic {
-          background: url(/pictures/pic2.jpg) center / cover no-repeat;
+          background: url(/pictures/pic2.jpg) center / contain no-repeat;
+          cursor: none;
         }
         .pic-inverted {
-          // transition: clip-path .5s;
-          background: url(/pictures/pic1.jpg) center / cover no-repeat;
+          background: url(/pictures/pic1.jpg) center / contain no-repeat;
           clip-path: circle(80px at ${coords.x}px ${coords.y}px);
           height: 80vh;
         }
+        .title {
+          padding-top: 10px;
+          text-align: center;
+        }
+        .small {
+          text-align: center;
+          font-size: .8em;
+        }
+        
       `}</style>
 
 

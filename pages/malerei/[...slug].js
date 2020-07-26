@@ -56,9 +56,11 @@ const MalereiJedesJahr = () => {
             .title svg {
                 transform: rotate(180deg);
                 fill: rgba(58, 83, 89, 1);
+                transition: transform .5s;
             }
             .title svg:hover {
                 opacity: .8;
+                transform: scale(1.1) rotate(180deg);
             }
             h2 {
                 margin-bottom: 2vh;

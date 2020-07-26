@@ -53,6 +53,7 @@ const MalereiJahre = (props) => {
             }
             .picture {
                 transition: opacity 1s;
+                cursor: pointer;
             }
             .picture:hover {
                 opacity: .8;

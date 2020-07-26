@@ -23,7 +23,7 @@ export default function Layout(props) {
       `}</style>
 
       <style jsx global>{`
-      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
       html {
         scroll-behavior: smooth;
       }
@@ -33,7 +33,6 @@ export default function Layout(props) {
       }
         body {
           overflow-x: hidden;
-          // font-family: 'Open Sans', sans-serif;
           font-family: 'Roboto', sans-serif;
           height: 100vh;
           color: #172626;
