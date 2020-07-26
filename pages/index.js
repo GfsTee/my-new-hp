@@ -28,7 +28,6 @@ export default function Home() {
       <div className="small">
         <i>Normale Ansicht: Licht aus - wenn du die Maus über das Bild bewegst wird bei diesem Teil des Bilds die LEDs "eingeschaltet"</i>
       </div>
-
       <style jsx>{`
         .pic {
           background: url(/pictures/pic2.jpg) center / contain no-repeat;
