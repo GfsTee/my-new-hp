@@ -17,7 +17,6 @@ export default function Home() {
   return (
     <Layout title={"Malerei"}>
       <h1>
-
       </h1>
       <div className="pic">
         <div className="pic-inverted"></div>
