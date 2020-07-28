@@ -6,7 +6,7 @@ const malereiOverview = [
     { year: 'ältere Werke', pic: "https://source.unsplash.com/random?5", full: false },
 ]
 const malerei20 = [
-    { picUrl: "https://source.unsplash.com/random?1", title: <></> },
+    { picUrl: "https://source.unsplash.com/random?1", title: <>Dies ist ein Test, um auch <b>HTML</b> Tags zu <em>testen</em></> },
     { picUrl: "https://source.unsplash.com/random?2", title: <></> },
     { picUrl: "https://source.unsplash.com/random?3", title: <></> },
     { picUrl: "https://source.unsplash.com/random?4", title: <></> },
