@@ -9,7 +9,7 @@ const Nav = (props) => {
     return (
         <nav ref={ref}>
 
-            <h1><Link href=""><a>Georg Treitz</a></Link></h1>
+            <h1><Link href="/"><a>Georg Treitz</a></Link></h1>
             <div id="hamburger" onClick={() => setIsShown(!isShown)} >
                 <span></span>
                 <span></span>
