@@ -29,11 +29,11 @@ export default function Home() {
       </div>
       <style jsx>{`
         .pic {
-          // background: url(/pictures/pic2.jpg) center / contain no-repeat;
+          background: url(/pictures/pic2.jpg) center / contain no-repeat;
           cursor: none;
         }
         .pic-inverted {
-          // background: url(/pictures/pic1.jpg) center / contain no-repeat;
+          background: url(/pictures/pic1.jpg) center / contain no-repeat;
           clip-path: circle(80px at ${coords.x}px ${coords.y}px);
           height: 80vh;
         }
