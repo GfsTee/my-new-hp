@@ -1,12 +1,10 @@
 import Link from 'next/link'
 
 const MalereiJahre = (props) => {
-    console.log(props)
     return (
         <section style={{ gridColumn: `${props.ele.full ? "1 / span 2" : "auto"}` }}>
             <h4>{props.ele.year}</h4>
             <figure >
-                {/* <img src={props.ele.pic} alt="" /> */}
                 <Link href={`/malerei/${props.ele.year}`}>
                     <div className="picture" style={{ height: `${props.ele.full ? "80vh" : "40vh"}`, background: `url(${props.ele.pic}) center/cover no-repeat` }}></div>
                 </Link>

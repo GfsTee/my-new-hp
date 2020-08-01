@@ -34,7 +34,7 @@ export default function Layout(props) {
         body {
           overflow-x: hidden;
           font-family: 'Roboto', sans-serif;
-          height: 100vh;
+          // height: 100vh;
           color: #172626;
         }
         * {
