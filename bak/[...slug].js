@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router'
-import Layout from '../../components/Layout'
-import { malerei20, malerei19, malerei18, malerei17, malerei16, malerei15 } from '../../data/data'
-import SinglePainting from '../../components/SinglePainting'
+import Layout from '../components/Layout'
+import { malerei20, malerei19, malerei18, malerei17, malerei16, malerei15 } from '../data/data'
+import SinglePainting from '../components/SinglePainting'
 import Link from 'next/link'
 // import SinglePainting from '../../components/SinglePainting.js.bak'
 

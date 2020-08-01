@@ -51,21 +51,7 @@ const malerei17 = [
     { picUrl: "https://source.unsplash.com/random?11", title: <></> },
     { picUrl: "https://source.unsplash.com/random?12", title: <></> },
 ]
-const malerei16 = [
-    { picUrl: "https://source.unsplash.com/random?1", title: <></> },
-    { picUrl: "https://source.unsplash.com/random?2", title: <></> },
-    { picUrl: "https://source.unsplash.com/random?3", title: <></> },
-    { picUrl: "https://source.unsplash.com/random?4", title: <></> },
-    { picUrl: "https://source.unsplash.com/random?5", title: <></> },
-    { picUrl: "https://source.unsplash.com/random?6", title: <></> },
-    { picUrl: "https://source.unsplash.com/random?7", title: <></> },
-    { picUrl: "https://source.unsplash.com/random?8", title: <></> },
-    { picUrl: "https://source.unsplash.com/random?9", title: <></> },
-    { picUrl: "https://source.unsplash.com/random?10", title: <></> },
-    { picUrl: "https://source.unsplash.com/random?11", title: <></> },
-    { picUrl: "https://source.unsplash.com/random?12", title: <></> },
-]
-const malerei15 = [
+const malereiPre17 = [
     { picUrl: "https://source.unsplash.com/random?1", title: <></> },
     { picUrl: "https://source.unsplash.com/random?2", title: <></> },
     { picUrl: "https://source.unsplash.com/random?3", title: <></> },
@@ -121,5 +107,5 @@ const ausstellungen = [
 ]
 
 
-export { malereiOverview, malerei20, malerei19, malerei18, malerei17, malerei16, malerei15, vita, ausstellungen }
+export { malereiOverview, malerei20, malerei19, malerei18, malerei17, malereiPre17, vita, ausstellungen }
 
