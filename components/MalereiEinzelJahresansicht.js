@@ -32,8 +32,8 @@ const MalereiEinezansicht = (props) => {
                 transform: scale(1.1) rotate(180deg);
             }
             h2 {
-                margin-bottom: 2vh;
-                font-size: 8vh;
+                margin-bottom: 2vmin;
+                font-size: 8vmin;
                 color: rgba(58, 83, 89, 1);
             -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
             -webkit-text-stroke-width: 1px;
@@ -44,7 +44,7 @@ const MalereiEinezansicht = (props) => {
             position: relative;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-            grid-auto-rows: 40vh;
+            grid-auto-rows: 40vmin;
             gap: 20px;
             z-index:999;
             background: #fff;

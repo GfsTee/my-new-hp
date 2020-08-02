@@ -63,8 +63,8 @@ const MalereiJedesJahr = () => {
                 transform: scale(1.1) rotate(180deg);
             }
             h2 {
-                margin-bottom: 2vh;
-                font-size: 8vh;
+                margin-bottom: 2vmin;
+                font-size: 8vmin;
                 color: rgba(58, 83, 89, 1);
             -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
             -webkit-text-stroke-width: 1px;

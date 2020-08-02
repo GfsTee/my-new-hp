@@ -34,7 +34,6 @@ export default function Layout(props) {
         body {
           overflow-x: hidden;
           font-family: 'Roboto', sans-serif;
-          // height: 100vh;
           color: #172626;
         }
         * {
@@ -43,8 +42,6 @@ export default function Layout(props) {
           margin: 0;
         }
         main {
-          // width: 90%;
-          // margin: 5vh auto;
           padding: 5vw;
           min-height: 90vh;
         }

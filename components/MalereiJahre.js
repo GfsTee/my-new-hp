@@ -18,7 +18,7 @@ const MalereiJahre = (props) => {
             <style jsx>{`
             h4 {
             text-align: right;
-            font-size: 8vh;
+            font-size: 8vmin;
             transform: translateY(40%);
             color: #D99414;
             -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
