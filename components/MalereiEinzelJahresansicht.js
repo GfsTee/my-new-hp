@@ -49,6 +49,16 @@ const MalereiEinezansicht = (props) => {
             z-index:999;
             background: #fff;
         }
+        @media screen and (max-width: 992px) {
+            .images {
+            grid-template-columns: 1fr 1fr;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            .images {
+            grid-template-columns: 1fr; 
+            }
+        }
       `}</style>
         </Layout>
     )

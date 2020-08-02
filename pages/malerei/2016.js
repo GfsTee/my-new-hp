@@ -1,10 +1,10 @@
 import MalereiEinzelansicht from '../../components/MalereiEinzelJahresansicht'
 import { malereiPre17 } from '../../data/data'
 
-const malerei2020 = () => {
+const pre2017 = () => {
     return (
-        <MalereiEinzelansicht year={"ältere"} yearData={malereiPre17} />
+        <MalereiEinzelansicht year={"2016+"} yearData={malereiPre17} />
     );
 }
 
-export default malerei2020;
+export default pre2017;

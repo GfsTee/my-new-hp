@@ -35,7 +35,7 @@ export default function Home() {
         .pic-inverted {
           background: url(/pictures/pic1.jpg) center / contain no-repeat;
           clip-path: circle(80px at ${coords.x}px ${coords.y}px);
-          height: 80vh;
+          height: 80vmin;
         }
         .title {
           padding-top: 10px;

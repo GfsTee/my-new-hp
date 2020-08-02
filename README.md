@@ -1,3 +1,15 @@
+@media screen and (max-width: 992px) {
+                    
+}
+@media screen and (max-width: 768px) {
+                    
+}
+
+@media screen and (max-width: 568px) {
+    
+}
+
+
 /* Color Theme Swatches in Hex */
 .Architektur-1-hex { color: #F2F2F2; }
 .Architektur-2-hex { color: #3B5459; }

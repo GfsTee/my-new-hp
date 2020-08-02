@@ -3,7 +3,7 @@ const malereiOverview = [
     { year: 2019, pic: "https://source.unsplash.com/random?2", full: false },
     { year: 2018, pic: "https://source.unsplash.com/random?3", full: false },
     { year: 2017, pic: "https://source.unsplash.com/random?4", full: false },
-    { year: 'ältere Werke', pic: "https://source.unsplash.com/random?5", full: false },
+    { year: 2016, pic: "https://source.unsplash.com/random?5", full: false },
 ]
 const malerei20 = [
     { picUrl: "https://source.unsplash.com/random?1", title: <>Dies ist ein Test, um auch <sup>HTML</sup> Tags zu <em>testen</em></> },
