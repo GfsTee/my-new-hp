@@ -8,7 +8,7 @@ export default function Layout(props) {
       <Head>
         <title>Georg Treitz | {props.title}</title>
         <meta name="description" content="Georg Treitz - Malerei - Lichtkunst" />
-
+        <meta name="google-site-verification" content="Kb27upnjE60z-tsDvp92fDMdDvF1Mzdj1EPZIoMJ7s8" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="wrapper">
