@@ -10,7 +10,7 @@ const MalereiJahre = (props) => {
                 </Link>
                 <figcaption>
                     <Link href={`/malerei/${props.ele.year}`}>
-                        <a>Discover more</a>
+                        <a>Mehr entdecken</a>
                     </Link>
 
                 </figcaption>
