@@ -46,6 +46,16 @@ const Texte = () => {
                     margin: 3rem auto;
                     width: 96%;
                 }
+                @media screen and (max-width: 992px) {
+                    #texte {
+                        width: 80%;
+                    }
+                }
+                @media screen and (max-width: 768px) {
+                    #texte {
+                        width: 100%;
+                    }
+                }
             `}</style>
         </Layout>
     );

@@ -97,7 +97,7 @@ export default function Layout(props) {
         }
         main {
           padding: 5vw;
-          min-height: 90vh;
+          min-height: 85vh;
         }
       `}</style>
     </div>
