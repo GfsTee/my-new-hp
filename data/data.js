@@ -5,7 +5,8 @@ const malereiOverview = [
     { year: 2016, pic: "/pictures/pre2017/oT5.jpg", full: false },
 ]
 const malerei20 = [
-
+    { picUrl: "/pictures/2020/_on.jpg", title: <>aus der Serie "lys" IX, mit Licht, Malerei auf Glas, LED, 19x19cm, 2020</> },
+    { picUrl: "/pictures/2020/_off.jpg", title: <>aus der Serie "lys" IX, ohne Licht, Malerei auf Glas, LED, 19x19cm, 2020</> },
 
 ]
 const malerei19 = [
@@ -83,35 +84,42 @@ const vita = [
     { year: "2015", title: "Förderstipendium der Deutschen Apotheker und Ärztebank" },
     { year: "", title: "Akademiebrief der Kunstakademie Düsseldorf" },
 ]
-const ausstellungen = [
-    { year: "2017", title: "Ernst & Young Benifizversteigerung im Rahmen der Düsseldorfer Nacht der Museen, Kunstakademie Düsseldorf, Düsseldorf" },
-    { year: "2016", title: "zakk, Düsseldorf" },
-    { year: "", title: "kunstakademie.gallery, Düsseldorf" },
-    { year: "", title: "Transfer Partners, Düsseldorf" },
-    { year: "2015", title: "Haus der Universität, Düsseldorf" },
-    { year: "", title: "Gecko Galerie, Solingen" },
-    { year: "", title: "Setareh Gallery, Düsseldorf" },
-    { year: "", title: "Kunsthaus Mettmann, Mettmann" },
-    { year: "2014", title: "Setareh Gallery, Düsseldorf (K)" },
-    { year: "", title: "Artloft, Düsseldorf" },
-    { year: "", title: "Gagarin, Düsseldorf" },
-    { year: "2013", title: "Galerie Braun-Falco, München (K)" },
-    { year: "", title: "Förderpreisausstellung Hogan Lovelles, Düsseldorf" },
-    { year: "2012", title: "A100, Düsseldorf" },
-    { year: "", title: "Gagarin, Düsseldorf" },
-    { year: "", title: "Emmafisch, Düsseldorf" },
-    { year: "2011", title: "Galerie Gebr. Lehmann, Dresden" },
-    { year: "", title: "Galerie Eigenheim, Weimar" },
-    { year: "", title: "Haueisenpreis, Ziegeleimuseum, Jockgrim" },
-    { year: "", title: "Pomodoro, Karlsruhe" },
-    { year: "2010", title: "Katholisch Solziales Institut, Bad Honnef" },
-    { year: "", title: "Forum für Kunst und Kultur, Herzogenrath" },
-    { year: "2009", title: "Kunstförderpreisausstellung von Rundstedt, Düsseldorf (K)" },
-    { year: "2008", title: "Förderpreisausstellung Lovelles, Düsseldorf" },
-    { year: "", title: "HSBC-Bank Trinkaus & Burkhardt, Düsseldorf" },
-    { year: "2007", title: "Kunstförderpreisausstellung von Rundstedt, Düsseldorf" },
+const ausstellungen = {
+    gruppen: [
+        { year: "2017", title: "Ernst & Young Benifizversteigerung im Rahmen der Düsseldorfer Nacht der Museen, Kunstakademie Düsseldorf, Düsseldorf" },
+        { year: "2016", title: "zakk, Düsseldorf" },
+        { year: "", title: "kunstakademie.gallery, Düsseldorf" },
+        { year: "", title: "Transfer Partners, Düsseldorf" },
+        { year: "2015", title: "Haus der Universität, Düsseldorf" },
+        { year: "", title: "Gecko Galerie, Solingen" },
+        { year: "", title: "Setareh Gallery, Düsseldorf" },
+        { year: "", title: "Kunsthaus Mettmann, Mettmann" },
+        { year: "2014", title: "Setareh Gallery, Düsseldorf (K)" },
+        { year: "", title: "Artloft, Düsseldorf" },
+        { year: "", title: "Gagarin, Düsseldorf" },
+        { year: "2013", title: "Galerie Braun-Falco, München (K)" },
+        { year: "", title: "Förderpreisausstellung Hogan Lovelles, Düsseldorf" },
+        { year: "2012", title: "A100, Düsseldorf" },
+        { year: "", title: "Gagarin, Düsseldorf" },
+        { year: "", title: "Emmafisch, Düsseldorf" },
+        { year: "2011", title: "Galerie Gebr. Lehmann, Dresden" },
+        { year: "", title: "Galerie Eigenheim, Weimar" },
+        { year: "", title: "Haueisenpreis, Ziegeleimuseum, Jockgrim" },
+        { year: "", title: "Pomodoro, Karlsruhe" },
+        { year: "2010", title: "Katholisch Solziales Institut, Bad Honnef" },
+        { year: "", title: "Forum für Kunst und Kultur, Herzogenrath" },
+        { year: "2009", title: "Kunstförderpreisausstellung von Rundstedt, Düsseldorf (K)" },
+        { year: "2008", title: "Förderpreisausstellung Lovelles, Düsseldorf" },
+        { year: "", title: "HSBC-Bank Trinkaus & Burkhardt, Düsseldorf" },
+        { year: "2007", title: "Kunstförderpreisausstellung von Rundstedt, Düsseldorf" },
+    ],
+    einzel: [
+        { year: "2007", title: "Kunstförderpreisausstellung von Rundstedt, Düsseldorf" },
+    ]
+}
+const preise = [
+    { year: "", title: "" },
 ]
 
-
-export { malereiOverview, malerei20, malerei19, malerei18, malerei17, malereiPre17, vita, ausstellungen }
+export { malereiOverview, malerei20, malerei19, malerei18, malerei17, malereiPre17, vita, ausstellungen, preise }
 

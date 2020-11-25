@@ -1,5 +1,5 @@
 import Layout from '../components/Layout'
-import { vita, ausstellungen } from '../data/data'
+import { vita, ausstellungen, preise } from '../data/data'
 
 const Vita = () => {
     return (
@@ -7,10 +7,28 @@ const Vita = () => {
             <div id="vita">
                 <section className="grid">
                     <h2>Vita</h2>
-                    {vita.map(ele => <><div>{ele.year}</div><div>{ele.title}</div></>)}
+                    {vita.map(ele => <>
+                        <div>{ele.year}</div>
+                        <div>{ele.title}</div>
+                    </>)}
                     {/* style={{ borderTop: `${ele.year !== "" ? "1px solid #333" : ""}` }} */}
-                    <h2>Ausstellungen (Auswahl)</h2>
-                    {ausstellungen.map(ele => <><div>{ele.year}</div><div>{ele.title}</div></>)}
+                    <h2>Preise und Stipendien</h2>
+
+                    <h2>Einzelausstellungen (Auswahl)</h2>
+                    {ausstellungen.einzel.map(ele => <>
+                        <div>{ele.year}</div>
+                        <div>{ele.title}</div>
+                    </>)}
+                    <h2>Gruppenusstellungen (Auswahl)</h2>
+                    {ausstellungen.gruppen.map(ele => <>
+                        <div>{ele.year}</div>
+                        <div>{ele.title}</div>
+                    </>)}
+                    <h2>Bibliographie</h2>
+                    {preise.map(ele => <>
+                        <div>{ele.year}</div>
+                        <div>{ele.title}</div>
+                    </>)}
                 </section>
                 <h2>Sammlungen</h2>
                 <div>Henkel AG & Co. KGaA, Düsseldorf</div>
